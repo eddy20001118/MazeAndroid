@@ -42,7 +42,7 @@ public class AlgoVisHelper extends ContextWrapper {
     public ImageView getRectangle(int color) {
         GradientDrawable gradientDrawable = new GradientDrawable();
         ImageView imageView = new ImageView(this);
-        gradientDrawable.setCornerRadius(5);
+        gradientDrawable.setCornerRadius(15);
         gradientDrawable.setColor(color);
         imageView.setBackground(gradientDrawable);
         return imageView;

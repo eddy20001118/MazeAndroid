@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     Button goButton;
     Algorithm algorithm;
     TextView REDScore, BLUEScore;
-    int runMethodCount = 0;
+    private int runMethodCount = 0;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
